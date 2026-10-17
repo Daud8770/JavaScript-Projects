@@ -1,71 +1,93 @@
 # JavaScript Projects 🚀
 
-Welcome to my JavaScript Projects repository!
-
-This repository contains six projects I built while learning and practicing JavaScript, HTML, and CSS. These projects helped me understand core JavaScript concepts and apply them by building interactive web applications.
+A collection of six beginner-friendly projects built using HTML, CSS, and JavaScript to practice web development fundamentals, DOM manipulation, event handling, APIs, and browser storage.
 
 ## 📂 Projects
 
 ### 1. Counter App
-A counter application with controls to increase, decrease, and reset the counter.
+A simple counter application with increment, decrement, reset, and ±10 controls. It saves the counter value in Local Storage and plays sound effects during interactions.
 
-**What I Learned:** DOM manipulation, event handling, functions, and updating values dynamically.
+**Key Learnings:**
+- DOM manipulation and event handling
+- JavaScript functions and click events
+- Local Storage
+- Dynamic UI updates
+- Working with audio elements
 
 ### 2. Profile Share Modal
-A modal-based interface for sharing a user profile.
+An interactive profile card with modals for sharing a profile through social media and accessing GitHub profile and repository links.
 
-**What I Learned:** Interactive UI elements, event handling, modal functionality, and CSS styling.
+**Key Learnings:**
+- DOM selection and event listeners
+- Opening and closing modals
+- CSS classes and overlay interactions
+- Working with social media links
+- Handling user interactions
 
 ### 3. Password Generator
-A tool to generate random passwords.
+A password generator that lets users customize password length and choose uppercase letters, lowercase letters, numbers, and symbols. It also includes a strength indicator and a copy-to-clipboard feature.
 
-**What I Learned:** JavaScript logic, random value generation, working with user inputs, and DOM manipulation.
+**Key Learnings:**
+- Generating random passwords
+- Working with checkboxes and range sliders
+- JavaScript arrays and string methods
+- Clipboard API
+- Password strength indicators
+- Fisher–Yates shuffle algorithm
 
 ### 4. Weather App
-A weather application that displays weather information for a location.
+A weather application that fetches weather information using the OpenWeatherMap API. Users can search for a city or view weather information based on their current location.
 
-**What I Learned:** Working with APIs, asynchronous JavaScript, fetching data, and updating the UI dynamically.
+**Key Learnings:**
+- Fetching API data using `fetch()` and `async/await`
+- Working with the Geolocation API
+- Searching weather by city name
+- Using Session Storage
+- Processing JSON responses
+- Dynamically displaying weather information
 
 ### 5. Tic Tac Toe
-A browser-based Tic Tac Toe game for two players.
+A two-player Tic Tac Toe game played on a 3×3 grid. It checks winning combinations, highlights winning boxes, detects draws, and allows players to start a new game.
 
-**What I Learned:** Game logic, event handling, conditional statements, and tracking game state.
+**Key Learnings:**
+- DOM manipulation and event listeners
+- Managing game state with arrays
+- Conditional statements and functions
+- Checking rows, columns, and diagonals
+- Detecting winners and draws
+- Restarting the game
 
-### 6. Dev Detective
-An application for searching GitHub user profiles.
+### 6. DevDetective
+A GitHub profile finder that allows users to search for a GitHub username and view profile details, including the avatar, bio, repositories, followers, following, location, and social links. It also supports dark and light themes.
 
-**What I Learned:** Working with the GitHub API, fetching user data, handling search input, and dynamically displaying profile information.
+**Key Learnings:**
+- Fetching data from the GitHub REST API
+- Using `fetch()` and `async/await`
+- Working with JSON responses
+- Dynamically updating the DOM
+- Implementing dark and light modes using CSS variables
+- Saving theme preferences in Local Storage
+- Handling missing profile information
 
 ## 🛠️ Technologies Used
 
 - HTML5
 - CSS3
 - JavaScript
-- Git and GitHub
+- Browser APIs
+- REST APIs
+- Local Storage and Session Storage
 
-## 🎯 Key Learnings
+## 🎯 Purpose
 
-Through these projects, I practiced:
+These projects were created for learning and practicing JavaScript fundamentals, improving problem-solving skills, and gaining hands-on experience with interactive web applications.
 
-- DOM manipulation and event listeners
-- Functions, variables, and conditional logic
-- Handling user input
-- Working with APIs and asynchronous JavaScript
-- Building interactive and responsive user interfaces
-- Debugging and organizing project code
+## 👨‍💻 Author
 
-## ▶️ How to Run
+**Daud**
 
-1. Clone or download this repository.
-2. Open the folder of the project you want to run.
-3. Open its `index.html` file in your browser.
-4. For projects that require an API, follow the instructions in that project's README.
-
-## 🌱 Future Improvements
-
-I plan to improve these projects by adding new features, refining the UI, improving responsiveness, and strengthening my JavaScript skills.
+- GitHub: [Daud8770](https://github.com/Daud8770)
 
 ---
 
-**Note:** This repository represents my learning journey and hands-on practice with JavaScript.
-
+⭐ Thanks for visiting this repository!
